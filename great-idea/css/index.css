@@ -153,10 +153,14 @@ footer {
 }
 
 .service-info {
-	display: flex
+	display: flex;
 	
 }
 .service-facts{
 	display: flex;
 	padding-top: 4%;
+}
+.sf-text{
+	display: flex;
+	flex-direction: column;
 }
