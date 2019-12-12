@@ -91,21 +91,21 @@ h1, h2, h3, h4, h5 {
 
 .big-pic {
 	display: flex;
-	justify-content: space-between;
-	
+	padding-bottom: 6%;	
+
 }
 
 .headerleft {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
-	align-content: center;
+	
 	width: 49%;
+	text-align: center;
+
 }
 
 .headerleft h1{
 	font-size: 48px;
-	text-align: center;
 
 }
 .headerleft a{
@@ -115,7 +115,7 @@ h1, h2, h3, h4, h5 {
 	border: 1px solid black;
 	padding: 1% 2%;
 	color: black;
-	text-align: center;
+
 }
 .top {
 	display: flex;
