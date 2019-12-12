@@ -92,16 +92,16 @@ h1, h2, h3, h4, h5 {
 .big-pic {
 	display: flex;
 	padding-bottom: 6%;	
-
 }
 
 .headerleft {
 	display: flex;
 	flex-direction: column;
-	
 	width: 49%;
 	text-align: center;
-
+	/*learn more about aligh-items*/
+	align-items: center;
+	justify-content: center;
 }
 
 .headerleft h1{
