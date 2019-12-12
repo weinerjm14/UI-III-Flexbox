@@ -72,11 +72,21 @@ h1, h2, h3, h4, h5 {
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 4%;
-
+	padding-top: 4%;
+	
 }
 .navlinks{
 	display: flex;
-	
+	justify-content: space-between;
+	width: 73%;
+	padding-top: 1%;
+}
+.navlinks a{
+	text-decoration: none;
+	color: rosybrown;
+}
+.navimg {
+	padding-bottom: 6%;
 }
 
 .big-pic {
@@ -89,7 +99,6 @@ h1, h2, h3, h4, h5 {
 	flex-direction: column;
 	justify-content: center;
 	align-content: center;
-	border: solid;
 	width: 49%;
 	
 }
@@ -130,6 +139,7 @@ h1, h2, h3, h4, h5 {
 	flex-direction: column;
 	padding-top: 6%;
 }
+
 footer {
 	text-align: center;
 	padding: 6%;
