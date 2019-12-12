@@ -64,16 +64,50 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
 .top-container {
 	display: flex;
-	width: 80%;
+	justify-content: space-between;
+	margin-bottom: 4%;
 
 }
 .navlinks{
 	display: flex;
-	justify-content: space-evenly;
-}
-.navimg {
 	
+}
+
+.big-pic {
+	display: flex;
+	justify-content: space-between;
+}
+/*this is good for now fix top*/
+.top {
+	display: flex;
+	padding: 6% 0;
+	justify-content: space-between;
+}
+.middle-img {
+	width: 100%;
+}
+.bottom {
+	display: flex;
+	padding: 6% 0;
+}
+.bottom-left {
+	padding-right: 6%;
+}
+.bottom-mid {
+	padding-right: 6%;
+}
+.contact {
+	display: flex;
+	flex-direction: column;
+	padding-top: 6%;
+}
+footer {
+	text-align: center;
+	padding: 6%;
 }
