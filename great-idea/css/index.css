@@ -73,8 +73,8 @@ h1, h2, h3, h4, h5 {
 	justify-content: space-between;
 	margin-bottom: 4%;
 	padding-top: 4%;
-	
 }
+	
 .navlinks{
 	display: flex;
 	justify-content: space-between;
@@ -94,26 +94,28 @@ h1, h2, h3, h4, h5 {
 	justify-content: space-between;
 	
 }
+
 .headerleft {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-content: center;
 	width: 49%;
-	
 }
+
 .headerleft h1{
 	font-size: 48px;
-	
+	text-align: center;
+
 }
 .headerleft a{
 	text-decoration: none;
-	text-align: center;
 	width: 26%;
 	height: 35px;
 	border: 1px solid black;
 	padding: 1% 2%;
 	color: black;
+	text-align: center;
 }
 /*this is good for now fix top*/
 .top {
@@ -143,4 +145,18 @@ h1, h2, h3, h4, h5 {
 footer {
 	text-align: center;
 	padding: 6%;
+}
+/*	Service page specific styles */
+.services-header-img{
+	width: 100%;
+	padding-bottom: 2%;
+}
+
+.service-info {
+	display: flex
+	
+}
+.service-facts{
+	display: flex;
+	padding-top: 4%;
 }
