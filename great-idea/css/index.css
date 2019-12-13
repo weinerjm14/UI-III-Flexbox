@@ -110,8 +110,8 @@ h1, h2, h3, h4, h5 {
 }
 .headerleft a{
 	text-decoration: none;
-	/* width: 50%; */
-	/* height: 35px; */
+	width: 50%;
+	height: 35px;
 	border: 1px solid black;
 	padding: 1% 2%;
 	color: black;
@@ -156,6 +156,9 @@ footer {
 .services-top{
 	padding-bottom: 4%;
 }
+.services-top h1{
+	font-size: 3em;
+}
 .service-info {
 	display: flex;
 	flex-wrap: wrap;
@@ -192,4 +195,33 @@ footer {
 .service-facts ul{
 	list-style: square inside;
 	padding-top: 4%;
-}                    
+}    
+/* about page specific */
+/* .about-header-img {
+	width: 100%
+}
+.about-intro{
+	text-align: center;
+	padding: 3% 0;
+}
+.about-intro h1{
+	font-size: 3em;
+}
+.about-intro p {
+	font-size: 1.5rem;
+	color: darkblue;
+}
+.middle-top {
+	display: flex;
+	justify-content: space-between;
+}
+}
+.middle-top h2 {
+	font-size: 2em;
+}
+.middle-top-right {
+	width: 48%;
+}
+.middle-top-bottom {
+	width: 48%
+} */
