@@ -63,4 +63,165 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+.top-container {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 4%;
+	padding-top: 4%;
+}
+	
+.navlinks{
+	display: flex;
+	justify-content: space-between;
+	width: 73%;
+	padding-top: 1%;
+}
+.navlinks a{
+	text-decoration: none;
+	color: rosybrown;
+}
+.navimg {
+	padding-bottom: 6%;
+}
+
+.big-pic {
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.headerleft {
+	display: flex;
+	flex-direction: column;
+	width: 49%;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+
+.headerleft h1{
+	font-size: 48px;
+
+}
+.headerleft a{
+	text-decoration: none;
+	width: 50%;
+	height: 35px;
+	border: 1px solid black;
+	padding: 1% 2%;
+	color: black;
+
+}
+.headerright {
+	width: 50%;
+}
+.top {
+	display: flex;
+	padding: 6% 0;
+	justify-content: space-between;
+}
+.middle-img {
+	width: 100%;
+}
+.bottom {
+	display: flex;
+	padding: 6% 0;
+}
+.bottom-left {
+	padding-right: 6%;
+}
+.bottom-mid {
+	padding-right: 6%;
+}
+.contact {
+	display: flex;
+	flex-direction: column;
+	padding-top: 6%;
+}
+
+footer {
+	text-align: center;
+	padding: 6%;
+}
+/*	Service page specific styles */
+.services-header-img{
+	width: 100%;
+	padding-bottom: 2%;
+}
+.services-top{
+	padding-bottom: 4%;
+}
+.services-top h1{
+	font-size: 3em;
+}
+.service-info {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 0 0 3% 0;
+
+}
+.service-type{
+	width: 42%;
+	border: solid;
+	background-color: #f5f5f5;
+	margin: 3% 0;
+	padding: 3%;
+}
+.service-type a{
+	text-decoration: none;
+	width: 26%;
+	height: 35px;
+	border: 1px solid black;
+	color: black;
+	text-align: center;
+	background-color: white;
+}
+.service-facts{
+	display: flex;
+	padding-top: 5%;
+	align-content: space-between;
+}
+.sf-text{
+	display: flex;
+	flex-direction: column;
+	margin-right: 6%;
+}
+.service-facts ul{
+	list-style: square inside;
+	padding-top: 4%;
+}    
+/* about page specific */
+/* .about-header-img {
+	width: 100%
+}
+.about-intro{
+	text-align: center;
+	padding: 3% 0;
+}
+.about-intro h1{
+	font-size: 3em;
+}
+.about-intro p {
+	font-size: 1.5rem;
+	color: darkblue;
+}
+.middle-top {
+	display: flex;
+	justify-content: space-between;
+}
+}
+.middle-top h2 {
+	font-size: 2em;
+}
+.middle-top-right {
+	width: 48%;
+}
+.middle-top-bottom {
+	width: 48%
+} */
